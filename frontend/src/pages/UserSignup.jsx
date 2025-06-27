@@ -101,7 +101,7 @@ const UserSignup = () => {
             <div className="relative">
               <input
                 type={showPassword ? 'text' : 'password'}
-                placeholder="password"
+                placeholder="6 Character Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required

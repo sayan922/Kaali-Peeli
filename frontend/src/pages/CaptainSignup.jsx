@@ -109,7 +109,7 @@ const CaptainSignup = () => {
             <input
               type="password"
               required
-              placeholder="Password"
+              placeholder="6 Character Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-4 py-2 bg-gray-100 border rounded-xl focus:outline-yellow-400"
